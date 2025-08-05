@@ -32,7 +32,7 @@ print(carros_back)
 carros[3] = "Jeep"
 print(carros)
 
-carros_back = carros[0:5]
+carros_back = carros[:]
 print(carros_back)
 carros[1] = "Golf"
 print(carros)
